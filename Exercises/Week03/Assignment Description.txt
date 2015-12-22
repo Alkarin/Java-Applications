@@ -1,0 +1,11 @@
+(Inspired by Gaddis, 2013; p.107; 12. String Manipulator)
+
+Write a program using the public class...main structure that asks the user to enter the name of their favorite city. Use a String variable to store the input from a Scanner. The program should display the following:
+
+The number of characters in the city name
+The name of the city in all uppercase letters
+The name of the city in all lowercase letters
+The first character in the name of the city
+Bonus: What if the city consists of two words, like San Diego?
+
+Each line of code should have one line of comment explaining it's function.

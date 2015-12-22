@@ -1,0 +1,20 @@
+(Inspired by Gaddis, 2015; p. 493, 9. Lottery Application)
+
+Create a Lottery class that simulates a lottery.
+
+
+The class should have a field with an array of five integers chosen at random, but no two integers must be the same.
+The class should have method that accepts an array of five integer that represents a gambler's number picks, with no two numbers being the same, and compares them to the five random integers, and then returns an array containing the numbers the gambler guess correctly.
+
+
+Hint 1: Use Random's nextInt to get random integers between 1 and 36 (or another number of your choosing) be sure to only allow numbers greater than or equal to 1.
+
+Hint 2: Use a method with the following signature isNumberInArray(int number, int[] array) to determine if a number is already in a given array.
+
+
+
+Demonstrate the class by creating a static main method which asks the user for five numbers and then uses the Lottery class to simulate the game. Inform the user of how many and which of the number they guess correctly.
+
+Comment all lines of code and the class and method definitions.
+
+Submit code (.java file) and output (.txt file).

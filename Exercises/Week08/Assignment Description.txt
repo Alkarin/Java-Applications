@@ -1,0 +1,13 @@
+(Inspired by Gaddis, 2015; p. 404, 12. Coin Toss Simulator)
+
+Write a class named Coin.
+The class should have a String field named sideUp which will hold either "heads" or "tails" indicating which side of the coin is facing up. 
+The class should have a no-arg constructor that randomly determines the side of the coin that is facing up and initializes the sideUp field accordingly.
+The class should further have a method named toss that simulates the tossing of the coin. When toss is called, it randomly assigns "heads" or "tails" to the sideUp field. 
+Finally the class should have a getter for the sideUp field.
+
+Then: Write a static main method that demonstrates the Coin class. It should create an instance of the class and display the side initially facing up. Then, using a loop to toss the coin 20 times and display the upfacing side each time. The method should count the number of times the heads and tails are facing up and display them after the loop.  
+
+Comment all lines of code and the class and method definitions.
+
+Submit the code (.java file) and output (.txt file).

@@ -1,0 +1,14 @@
+Inspired by Gaddis, 2005, p. 615.
+
+Password Verifier
+
+You are writing the user registration page for a secure web site. The user has to enter a user ID and a password, which has to adhere to the to following:
+
+User ID and password cannot be the same
+User ID and password have to be at least six characters long
+User ID cannot contain the following characters: !#$
+Password has to contain at least one of: !#$
+Password has to contain at least one uppercase and one lower case letter
+Write a main method that let a user input both user ID and password, and tell them if the combination is acceptable. Test it for all criteria.
+
+Submit one .java file and one .txt file with all test cases.

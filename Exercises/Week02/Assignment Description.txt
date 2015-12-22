@@ -1,0 +1,5 @@
+Create a program that calculates tips.
+
+Use the public class...main  structure from our first program. Create an variable of type double called amount and assign it a value. Create a variable of type double called tip and assign it 15% of the value of the variable amount. Then print out the amount that you are calculating the tip of, along with the tip, with some guiding text.
+
+Submit both program and output; remember to include your name(s) and CSID in the comments
