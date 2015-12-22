@@ -1,0 +1,120 @@
+/**
+ * Write a description of class BoardElement here.
+ * 
+ * @author Alexander Vaughan (5448832)
+ * @version 11/17/2015
+ */
+abstract public class BoardElement
+{
+    /**
+     * Method to return a number of where to move
+     */
+    public abstract int moveTo();
+    
+    /**
+     * Method that prints out Element Symbol
+     */
+    public abstract String print();
+}
+
+/**
+ * Class used for the Snakes board element
+ * 
+ * @author Alexander Vaughan (5448832) 
+ * @version 11/17/2015
+ */
+public class SnakeElement extends BoardElement
+{
+    /**
+     * Method to move back 5 spaces
+     */
+    public int moveTo(){
+        return -5;
+    }
+    
+    /**
+     * Method to print out the Board Element
+     */
+    public String print(){
+        return "[\\]";
+    }
+}
+
+/**
+ * Class used for the Regular board element
+ * 
+ * @author Alexander Vaughan (5448832)
+ * @version 11/17/2015
+ */
+public class RegularElement extends BoardElement
+{
+    /**
+     * Moves the user 0 spaces. Keeps them in place
+     */
+    public int moveTo(){
+        return 0;
+    }
+    
+    /**
+     * Method to Print out the Board Element
+     */
+    public String print(){
+        return "[_]";
+    }
+}
+
+/**
+ * Class used for the Ladder board element
+ * 
+ * @author Alexander Vaughan (5448832)
+ * @version 11/17/2015
+ */
+public class LadderElement extends BoardElement
+{
+    /**
+     * Method to move forward 5 spaces
+     */
+    public int moveTo(){
+        return 5;
+    }
+    
+    /**
+     * Method to print out Board Element
+     */
+        public String print(){
+        return "[#]";
+    }
+}
+
+/**
+ * Board class for Snakes and Ladders game. Constructs, initialises, and creates a Board Object
+ * to be printed out for user to see.
+ * 
+ * @author Alexander Vaughan (5448832)
+ * @version 11/17/2015
+ */
+//importing Random class to create getRandomColumn method and for rand.nextBoolean in initialise method
+import java.util.Random;
+public class Board
+{
+    /**
+     * Board variables
+     * @BOARD_SIZE is final max size of the board row/columns
+     * @rand to be used in boolean and column random generation
+     * @boe actual board element to create game board
+     */
+    private final static int BOARD_SIZE = 10;
+    private final static Random rand = new Random();
+    private BoardElement[][] boe = new BoardElement[BOARD_SIZE][BOARD_SIZE];
+    /**
+     * Contructor method for Board class
+     */
+    public Board(){
+        initialise();
+    }
+    
+    /**
+     * Initialiser method to place board elements into boe array for Board
+     */
+    public void initialise(){
+   

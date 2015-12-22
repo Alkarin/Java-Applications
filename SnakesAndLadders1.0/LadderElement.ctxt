@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.params=
+comment0.target=LadderElement()
+comment0.text=\r\n\ Method\ that\ adds\ background\ color\ to\ LadderElement\r\n
+comment1.params=
+comment1.target=int\ moveTo()
+comment1.text=\r\n\ Method\ to\ move\ forward\ 5\ spaces\r\n
+comment2.params=
+comment2.target=java.lang.String\ print()
+comment2.text=\r\n\ Method\ to\ print\ out\ Board\ Element\r\n
+numComments=3

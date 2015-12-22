@@ -1,0 +1,25 @@
+#BlueJ class context
+comment0.params=
+comment0.target=PlayerElement()
+comment1.params=
+comment1.target=int\ moveTo()
+comment1.text=\r\n\ Method\ to\ move\ PlayerElement\r\n\ Not\ used\ at\ the\ moment\r\n
+comment2.params=steps
+comment2.target=void\ jumpTo(int)
+comment2.text=\r\n\ Method\ that\ moves\ player\ position\ based\ on\ Snake\ and\ Ladder\ Element\ values\r\n
+comment3.params=
+comment3.target=java.lang.String\ print()
+comment3.text=\r\n\ Method\ to\ print\ out\ for\ the\ PlayerElement\r\n
+comment4.params=a
+comment4.target=void\ setPosX(int)
+comment4.text=\r\n\ Method\ to\r\n
+comment5.params=a
+comment5.target=void\ setPosY(int)
+comment5.text=\r\n\ Method\ to\ \r\n
+comment6.params=
+comment6.target=int\ getPosX()
+comment6.text=\r\n\ Method\ to\ return\ playerPosX\r\n
+comment7.params=
+comment7.target=int\ getPosY()
+comment7.text=\r\n\ Method\ to\ return\ playerPosY\r\n
+numComments=8
