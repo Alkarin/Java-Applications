@@ -1,5 +1,0 @@
-The HiLo Game
-
-Write a program that selects a secret random integer between 1 and 100. The program then asks the user to enter a guess for that number. If the user's guess is too high or too low, the program prints out "Too high" or "Too low" respectively, and then asks the user for a new guess, until the user guesses the secret number. If the user guesses the number, the program prints out "You win!" and the game is over.
-
-Submit the source and a run where we see both too high and too low, and a correct guess.
