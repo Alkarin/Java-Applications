@@ -1,0 +1,15 @@
+Testsuite: cisc187.bigcalc.operators.TestPower
+Tests run: 12, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.272 sec
+
+Testcase: testIsOperator took 0.002 sec
+Testcase: testExponentNotAnInteger took 0.002 sec
+Testcase: test2times2 took 0 sec
+Testcase: testnullBigInt took 0 sec
+Testcase: testTooFewOperands took 0 sec
+Testcase: test1234567890123456789power1 took 0.001 sec
+Testcase: test4power5 took 0 sec
+Testcase: test9999power99 took 0.24 sec
+Testcase: testIsNotOperator took 0 sec
+Testcase: test0power1 took 0.001 sec
+Testcase: test1power0 took 0 sec
+Testcase: test1power2 took 0 sec

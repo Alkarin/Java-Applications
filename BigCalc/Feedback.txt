@@ -1,0 +1,50 @@
+handed in 2 days early: +2
+
+
+Other comments:
+
+
+BigInt.java:4: Avoid duplicate imports such as 'java.util.List'
+
+
+BigInt.java:52: Avoid unused local variables such as 'count'.
+
+
+BigInt.java:53, 224, 225, 278, 296: Substitute calls to size() == 0 (or size() != 0, size() > 0, size() < 1) with calls to isEmpty()
+
+
+BigInt.java:80: Position literals first in String comparisons
+
+
+BigInt.java:274: Avoid instantiating new objects inside loops
+
+
+BigInt.java:367, 368: Avoid declaring a variable if it is unreferenced before a possible exit point.
+
+
+BigInt.java:396: Avoid unnecessary if..then..else statements when returning booleans
+
+
+Calc.java:6, 7: Avoid unused imports
+
+
+Calc.java:38: Perhaps 'operands' could be replaced by a local variable.
+
+
+Calc.java:46: This final field could be made static
+
+
+Calc.java:50: Avoid excessively long variable names like illegalArgException - you don't need to repeat the class namein the error string. Also, this string could be static
+
+
+Calc.java:101: Avoid instantiating new objects inside loops
+
+
+Calc.java:113: Position literals first in String comparisons
+
+
+Calc.java:114: System.exit() could be replaced with a break
+
+
+Add, Multiply and Power.java:24: Avoid unnecessary if..then..else statements when returning booleans
+
