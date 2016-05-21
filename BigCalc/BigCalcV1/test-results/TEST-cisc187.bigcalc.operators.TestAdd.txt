@@ -1,0 +1,14 @@
+Testsuite: cisc187.bigcalc.operators.TestAdd
+Tests run: 11, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.038 sec
+
+Testcase: testIsOperator took 0.002 sec
+Testcase: test1234567890123456789plus0 took 0.002 sec
+Testcase: testnullBigInt took 0 sec
+Testcase: testTooFewOperands took 0 sec
+Testcase: test0000000890123456789plus9876543210 took 0 sec
+Testcase: test0000000890123456789plus9876543211 took 0 sec
+Testcase: testIsNotOperator took 0 sec
+Testcase: test0plus0 took 0 sec
+Testcase: test0plus2 took 0 sec
+Testcase: test1plus0 took 0 sec
+Testcase: test2plus2 took 0 sec
