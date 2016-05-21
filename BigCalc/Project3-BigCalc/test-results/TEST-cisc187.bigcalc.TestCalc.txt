@@ -1,7 +1,0 @@
-Testsuite: cisc187.bigcalc.TestCalc
-Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.026 sec
-
-Testcase: testMultiply999999999Times0 took 0.006 sec
-Testcase: testTooFewOperandsAdd took 0 sec
-Testcase: testBasicAdd took 0.001 sec
-Testcase: testBasicPow took 0.001 sec
