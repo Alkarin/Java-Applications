@@ -4,7 +4,7 @@ package cisc187.util;
 /**
  * Defines actions that can be taken on lists that print their contents.
  *
- * @author Dave Parillo
+ * @author Alexander Vaughan
  */
 public interface Printable {
   /**
