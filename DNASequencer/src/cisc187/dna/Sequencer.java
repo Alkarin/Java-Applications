@@ -21,7 +21,6 @@ import java.util.logging.Level;
  * Not that all methods are static and this class cannot be instantiated.
  * </p>
  *
- * @author Dave Parillo
  * @author Alexander Vaughan(5448832)
  * @version 1.0
  * @since 03-25-2016
