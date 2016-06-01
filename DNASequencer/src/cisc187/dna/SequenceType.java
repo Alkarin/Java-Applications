@@ -7,7 +7,6 @@ import java.util.Map;
  * Sequence Type indicator.
  * Defines the 3 kinds of sequence types as the character that are valid for each.
  * The valid characters defined are used by the {@link isValid} method.
- * @author Dave Parillo
  * @author Alexander Vaughan (5448832)
  */
 public enum SequenceType {
